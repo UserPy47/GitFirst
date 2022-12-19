@@ -1,0 +1,137 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    background-image: url("./nightlam.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contain {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    background-color: rgb(69, 229, 250);
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-top: 200px;
+
+}
+
+.rows {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-timing-function: linear;
+    /* background: orange;    */
+}
+
+    
+    
+  
+
+.contain:hover {
+    transform: translate(60px)
+}
+
+.rows:hover {
+    background-color: rgb(252, 108, 183);
+    text-decoration: blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.font {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.font:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    text-decoration-color: gold;
+    
+}
+.text{
+    color: rgb(29, 25, 25);
+    /* text-decoration-line: underline;  */
+}
+.text:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(81, 12, 231);
+    text-decoration-color: rgb(16, 235, 75);
+
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+    padding: 3%;
+    background: linear-gradient(45deg, rgb(229, 103, 13) 50%, rgba(14, 162, 221, 0.953) 50%);
+}
+
+nav {
+    padding: 0 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50PX;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0%; left: 0%;
+}
+
+span {
+    color: white;
+    margin: 0 2%;
+    font-variant: small-caps;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+span:hover {
+    color: blue;
+    background: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+
+}
+.container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-left: 300px;
+    background: black;
+}
+
+button{
+    /* margin-left: 100px; */
+}
+button:hover{
+    background-color: yellow;
+    font-size: large;
+    color: blue;
+    transform: scale(11.5px);
+    border-radius: 10px;
+  
+    
+}
+
+
